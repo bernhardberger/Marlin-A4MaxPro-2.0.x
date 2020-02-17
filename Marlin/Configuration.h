@@ -484,9 +484,9 @@
   // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
 
   // A4MaxPro
-  #define DEFAULT_Kp 18.55
-  #define DEFAULT_Ki 1.26
-  #define DEFAULT_Kd 68.00
+  #define DEFAULT_Kp 23.77
+  #define DEFAULT_Ki 1.67
+  #define DEFAULT_Kd 84.69
 
   // Ultimaker
   // #define DEFAULT_Kp 22.2
@@ -538,8 +538,14 @@
   //#define MIN_BED_POWER 0
   //#define PID_BED_DEBUG // Sends debug data to the serial port.
 
+  //Anycubic i3 Mega Ultrabase (0.9Ω @ 22°C)
+  #define DEFAULT_bedKp 439.45
+  #define DEFAULT_bedKi 73.49
+  #define DEFAULT_bedKd 656.97
   //Anycubic 4Max Pro Ultrabase (0.9Ω @ 22°C)
   #define DEFAULT_bedKp 143.88
+  //Anycubic i3 Mega Ultrabase (0.9Ω @ 22°C)
+  #define DEFAULT_bedKp 180.03
   #define DEFAULT_bedKi 34.88
   #define DEFAULT_bedKd 619.44
 
@@ -676,11 +682,11 @@
  */
 #define X_DRIVER_TYPE  TMC2208_STANDALONE // comment out for stock drivers
 #define Y_DRIVER_TYPE  TMC2208_STANDALONE // comment out for stock drivers
-//#define Z_DRIVER_TYPE  TMC2208_STANDALONE // comment out for stock drivers
+#define Z_DRIVER_TYPE  TMC2208_STANDALONE // comment out for stock drivers
 //#define X2_DRIVER_TYPE TMC2208_STANDALONE
 //#define Y2_DRIVER_TYPE TMC2208_STANDALONE
 //#define Z2_DRIVER_TYPE TMC2208_STANDALONE // comment out for stock drivers
-//#define E0_DRIVER_TYPE TMC2208_STANDALONE // comment out for stock drivers
+#define E0_DRIVER_TYPE TMC2208_STANDALONE // comment out for stock drivers
 //#define E1_DRIVER_TYPE TMC2208_STANDALONE // comment out for stock drivers
 //#define E2_DRIVER_TYPE TMC2208_STANDALONE
 //#define E3_DRIVER_TYPE TMC2208_STANDALONE
