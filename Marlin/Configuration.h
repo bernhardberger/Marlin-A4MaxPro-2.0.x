@@ -539,9 +539,10 @@
   //#define PID_BED_DEBUG // Sends debug data to the serial port.
 
   //Anycubic i3 Mega Ultrabase (0.9Ω @ 22°C)
-  #define DEFAULT_bedKp 439.45
-  #define DEFAULT_bedKi 73.49
-  #define DEFAULT_bedKd 656.97
+//  #define DEFAULT_bedKp 180.03
+//  #define DEFAULT_bedKi 27.02
+//  #define DEFAULT_bedKd 510.76
+
   //Anycubic 4Max Pro Ultrabase (0.9Ω @ 22°C)
   #define DEFAULT_bedKp 100.68
   #define DEFAULT_bedKi 17.07
