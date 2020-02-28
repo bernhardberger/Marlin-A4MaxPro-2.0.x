@@ -484,9 +484,15 @@
   // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
 
   // A4MaxPro
-  #define DEFAULT_Kp 18.53
-  #define DEFAULT_Ki 1.27
-  #define DEFAULT_Kd 67.55
+//  #define DEFAULT_Kp 18.53
+//  #define DEFAULT_Ki 1.27
+//  #define DEFAULT_Kd 67.55
+
+  // A4Max Pro (bberger)
+  #define DEFAULT_Kp 21.04
+  #define DEFAULT_Ki 1.38
+  #define DEFAULT_Kd 80.14
+
 
   // Ultimaker
   // #define DEFAULT_Kp 22.2
@@ -544,9 +550,14 @@
 //  #define DEFAULT_bedKd 510.76
 
   //Anycubic 4Max Pro Ultrabase (0.9Ω @ 22°C)
-  #define DEFAULT_bedKp 100.68
-  #define DEFAULT_bedKi 17.07
-  #define DEFAULT_bedKd 395.86
+//  #define DEFAULT_bedKp 100.68
+//  #define DEFAULT_bedKi 17.07
+//  #define DEFAULT_bedKd 395.86
+
+  //Anycubic 4Max Pro Ultrabase (0.9Ω @ 22°C) - bberger
+  #define DEFAULT_bedKp 199.85
+  #define DEFAULT_bedKi 36.96
+  #define DEFAULT_bedKd 720.41
 
   //120V 250W silicone heater into 4mm borosilicate (MendelMax 1.5+)
   //from pidautotune
